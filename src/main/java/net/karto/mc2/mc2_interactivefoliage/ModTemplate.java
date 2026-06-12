@@ -16,9 +16,9 @@ import net.karto.mc2.mc2_interactivefoliage.platform.fabric.FabricPlatform;
 @SuppressWarnings("LoggingSimilarMessage")
 public class ModTemplate {
 
-	public static final String MOD_ID = /*$ mod_id*/ "modtemplate";
-	public static final String MOD_VERSION = /*$ mod_version*/ "0.1.0";
-	public static final String MOD_FRIENDLY_NAME = /*$ mod_name*/ "Mod Template";
+	public static final String MOD_ID = /*$ mod_id*/ "mc2_interactivefoliage";
+	public static final String MOD_VERSION = /*$ mod_version*/ "1.1.0";
+	public static final String MOD_FRIENDLY_NAME = /*$ mod_name*/ "MC2 - Interactive Foliage";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	private static final Platform PLATFORM = createPlatformInstance();

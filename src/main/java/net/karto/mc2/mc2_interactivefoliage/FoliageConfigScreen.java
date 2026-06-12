@@ -1,7 +1,6 @@
 package net.karto.mc2.mc2_interactivefoliage;
 
 import com.github.razorplay01.sway.config.SwayConfig;
-import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.AbstractSliderButton;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.CycleButton;
@@ -34,8 +33,10 @@ public class FoliageConfigScreen extends Screen {
 		this.addRenderableWidget(
 				CycleButton.booleanBuilder(
 						Component.translatable("config.mc2_interactivefoliage.on"),
-						Component.translatable("config.mc2_interactivefoliage.off"),
-						config.enabled
+						Component.translatable("config.mc2_interactivefoliage.off")
+						//? > 1.21.1 {
+						,config.enabled
+						//?}
 				).create(cx - 100, y, 200, 20,
 						Component.translatable("config.mc2_interactivefoliage.enabled"),
 						(btn, val) -> config.enabled = val
@@ -142,9 +143,10 @@ public class FoliageConfigScreen extends Screen {
 		this.minecraft.setScreen(parent);
 	}
 
-	@Override
+	//? <= 1.21.11 {
+	/*@Override
 	public void render(
-			@NotNull GuiGraphics graphics,
+			@NotNull net.minecraft.client.gui.GuiGraphics graphics,
 			int mouseX, int mouseY, float delta
 	) {
 		super.render(graphics, mouseX, mouseY, delta);
@@ -154,4 +156,14 @@ public class FoliageConfigScreen extends Screen {
 				0xFFFFFF
 		);
 	}
+	*///?}
+	//? > 1.21.11 {
+	@Override
+	public void extractRenderState(net.minecraft.client.gui.GuiGraphicsExtractor graphics, int mouseX, int mouseY, float a) {
+		super.extractRenderState(graphics, mouseX, mouseY, a);
+		graphics.centeredText(this.font, this.title,
+				this.width / 2, this.height / 4 - 20,
+				0xFFFFFF);
+	}
+	//?}
 }
