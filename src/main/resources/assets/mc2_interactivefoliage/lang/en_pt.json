@@ -1,0 +1,15 @@
+{
+  "config.mc2_interactivefoliage.title": "MC2 - Interactive Foliage (Arr!)",
+  "config.mc2_interactivefoliage.enabled": "Interact'n",
+  "config.mc2_interactivefoliage.on": "AYE",
+  "config.mc2_interactivefoliage.off": "NAY",
+  "config.mc2_interactivefoliage.intensity": "Strength: %s",
+  "config.mc2_interactivefoliage.radius": "Sight Radius: %s blocks (aye)",
+  "config.mc2_interactivefoliage.reset": "↺ (Reset, ye scallywag!)",
+  "config.mc2_interactivefoliage.save": "Save 'n Close (batten down)",
+  "key.category.mc2_interactivefoliage.general": "Interactive Foliage (Arr!)",
+  "key.mc2_interactivefoliage.open_config": "Open Config (check the map)",
+  "key.mc2_interactivefoliage.toggle": "Toggle Mod (raise/lower flag)",
+  "key.mc2_interactivefoliage.toggle.on": "Interactive Foliage: AYE",
+  "key.mc2_interactivefoliage.toggle.off": "Interactive Foliage: NAY"
+}
