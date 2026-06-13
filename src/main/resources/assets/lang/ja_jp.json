@@ -1,0 +1,15 @@
+{
+    "config.mc2_interactivefoliage.title": "MC2 - インタラクティブな葉",
+    "config.mc2_interactivefoliage.enabled": "相互作用",
+    "config.mc2_interactivefoliage.on": "オン",
+    "config.mc2_interactivefoliage.off": "オフ",
+    "config.mc2_interactivefoliage.intensity": "強さ: %s",
+    "config.mc2_interactivefoliage.radius": "表示半径: %s ブロック",
+    "config.mc2_interactivefoliage.reset": "↺",
+    "config.mc2_interactivefoliage.save": "保存して閉じる",
+    "key.category.mc2_interactivefoliage.general": "インタラクティブな葉",
+    "key.mc2_interactivefoliage.open_config": "設定を開く",
+    "key.mc2_interactivefoliage.toggle": "MODを切り替え",
+    "key.mc2_interactivefoliage.toggle.on": "インタラクティブな葉: オン",
+    "key.mc2_interactivefoliage.toggle.off": "インタラクティブな葉: オフ"
+}
