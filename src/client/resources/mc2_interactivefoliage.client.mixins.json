@@ -1,9 +1,0 @@
-{
-	"required": true,
-	"package": "net.karto.mc2.interactivefoliage.mixin.client",
-	"compatibilityLevel": "JAVA_21",
-	"client": [
-		"LevelRendererMixin"
-	],
-	"injectors": { "defaultRequire": 1 }
-}
